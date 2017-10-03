@@ -1,0 +1,260 @@
+-outjars "C:\Dropbox\FYP\workspaceCaptureJS2\MainActivity\proguard_cache\jartender_cache_7312243184453091112.jar"
+-injars "C:\Dropbox\FYP\workspaceCaptureJS2\MainActivity\bin\classes"
+-libraryjars "C:\Program Files (x86)\Android\android-sdk\platforms\android-18\android.jar"
+-libraryjars "C:\Dropbox\FYP\workspaceCaptureJS2\MainActivity\libs\scala_library.min.jar"
+-libraryjars "C:\Dropbox\FYP\workspaceCaptureJS2\MainActivity\libs\android-support-v4.jar"
+-keep public class * extends android.**
+-dontwarn **$$anonfun$*
+-dontwarn
+-dontoptimize
+-dontobfuscate
+-dontskipnonpubliclibraryclasses
+-dontskipnonpubliclibraryclassmembers
+
+-ignorewarnings
+-forceprocessing
+
+-keepattributes Exceptions,InnerClasses,Signature,Deprecated,
+                SourceFile,LineNumberTable,*Annotation*,EnclosingMethod
+
+-keep public class scala.ScalaObject { *; }
+-keep public class scala.Function0, scala.Function1
+
+# Fix for https://issues.scala-lang.org/browse/SI-5397 
+
+-keep class scala.collection.SeqLike {
+    public protected *;
+}
+
+# AndroidProguardScala version: 0.0.51
+
+# Inserting proguard additions file C:/Dropbox/FYP/workspaceCaptureJS2/MainActivity/proguard_cache_conf/proguard_additions.conf here
+# C:\Dropbox\FYP\workspaceCaptureJS2\MainActivity\proguard_cache_conf\proguard_additions.conf (The system cannot find the file specified)
+-keep class anran.hdcode2.application.FileTransmitApp$$anon$1 {*;}
+-keep class anran.hdcode2.application.FileTransmitApp$ {*;}
+-keep class anran.hdcode2.application.FileTransmitApp {*;}
+-keep class anran.hdcode2.application.HDCodeReceiverApp {*;}
+-keep class anran.hdcode2.application.PersistantStorage$$anonfun$StopAndSave$1 {*;}
+-keep class anran.hdcode2.application.PersistantStorage$$anonfun$StopAndSave$2 {*;}
+-keep class anran.hdcode2.application.PersistantStorage$Error$ {*;}
+-keep class anran.hdcode2.application.PersistantStorage$Success$ {*;}
+-keep class anran.hdcode2.application.PersistantStorage {*;}
+-keep class anran.hdcode2.application.RandomFillApp {*;}
+-keep class anran.hdcode2.BuildConfig {*;}
+-keep class anran.hdcode2.CameraView$$anon$1$$anonfun$act$1 {*;}
+-keep class anran.hdcode2.CameraView$$anon$1 {*;}
+-keep class anran.hdcode2.CameraView$$anon$2 {*;}
+-keep class anran.hdcode2.CameraView$$anon$3 {*;}
+-keep class anran.hdcode2.CameraView$$anonfun$1 {*;}
+-keep class anran.hdcode2.CameraView$$anonfun$Start$1 {*;}
+-keep class anran.hdcode2.CameraView$$anonfun$Start$2 {*;}
+-keep class anran.hdcode2.CameraView {*;}
+-keep class anran.hdcode2.datalink.BlockReader$$anonfun$1 {*;}
+-keep class anran.hdcode2.datalink.BlockReader$$anonfun$GetOriginalData$1 {*;}
+-keep class anran.hdcode2.datalink.BlockReader$$anonfun$GetOriginalData$2 {*;}
+-keep class anran.hdcode2.datalink.BlockReader$$anonfun$GetOriginalData$3 {*;}
+-keep class anran.hdcode2.datalink.BlockReader$$anonfun$GetOriginalData$4 {*;}
+-keep class anran.hdcode2.datalink.BlockReader$$anonfun$GetOriginalData$5 {*;}
+-keep class anran.hdcode2.datalink.BlockReader$$anonfun$GetTestData$1 {*;}
+-keep class anran.hdcode2.datalink.BlockReader$$anonfun$itDataUnit$1$1 {*;}
+-keep class anran.hdcode2.datalink.BlockReader {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$2 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$3$$anonfun$apply$2 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$3 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$4$$anonfun$apply$3 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$4 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$5$$anonfun$apply$4$$anonfun$apply$mcVI$sp$2 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$5$$anonfun$apply$4 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$5 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$anran$hdcode2$datalink$FrameConstructor$$initBlock$1 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$anran$hdcode2$datalink$FrameConstructor$$initCenter$1 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$anran$hdcode2$datalink$FrameConstructor$$initCenter$2 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$anran$hdcode2$datalink$FrameConstructor$$insertByteToBlock$1$1 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$anran$hdcode2$datalink$FrameConstructor$$insertByteToBlock$1$2 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$initWindowData$1$$anonfun$apply$mcVI$sp$1 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$initWindowData$1 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$Start$1 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$TestFrame$1$$anonfun$apply$1 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$TestFrame$1 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$$anonfun$TestFrame$2 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$BitmapMaker$$anonfun$1 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$BitmapMaker$ {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$BitmapMaker$Maker$$anonfun$act$1$$anonfun$applyOrElse$1 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$BitmapMaker$Maker$$anonfun$act$1$$anonfun$applyOrElse$2 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$BitmapMaker$Maker$$anonfun$act$1$$anonfun$applyOrElse$3 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$BitmapMaker$Maker$$anonfun$act$1 {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor$BitmapMaker$Maker {*;}
+-keep class anran.hdcode2.datalink.FrameConstructor {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$$anonfun$1 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$$anonfun$2 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$$anonfun$3 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$$anonfun$4 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$$anonfun$6 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$$anonfun$7 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$$anonfun$anran$hdcode2$datalink$ReaderStateMachine$$resnew$1$1 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$$anonfun$callNative$1$1 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$$anonfun$callNative$1$2 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$$anonfun$getFid$1$1 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$$anonfun$getFid$1$2 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$$anonfun$HandleFrameData$1 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$ECBuffer2$2$$anonfun$5 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$ECBuffer2$2$$anonfun$emit$1 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$ECBuffer2$2$$anonfun$emit$2 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$ECBuffer2$2$ {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$ReceiveFrame$$anonfun$8 {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine$ReceiveFrame {*;}
+-keep class anran.hdcode2.datalink.ReaderStateMachine {*;}
+-keep class anran.hdcode2.FileList {*;}
+-keep class anran.hdcode2.GlobalProperty$ {*;}
+-keep class anran.hdcode2.GlobalProperty {*;}
+-keep class anran.hdcode2.library.CaptureProperty$$anonfun$1 {*;}
+-keep class anran.hdcode2.library.CaptureProperty$$anonfun$2 {*;}
+-keep class anran.hdcode2.library.CaptureProperty$$anonfun$3 {*;}
+-keep class anran.hdcode2.library.CaptureProperty {*;}
+-keep class anran.hdcode2.library.ColorMatcher$$anonfun$MatchColor$1 {*;}
+-keep class anran.hdcode2.library.ColorMatcher$ {*;}
+-keep class anran.hdcode2.library.ColorMatcher {*;}
+-keep class anran.hdcode2.library.ColorTranslate$ {*;}
+-keep class anran.hdcode2.library.ColorTranslate {*;}
+-keep class anran.hdcode2.library.DataLinkProperty$$anonfun$1 {*;}
+-keep class anran.hdcode2.library.DataLinkProperty$$anonfun$2 {*;}
+-keep class anran.hdcode2.library.DataLinkProperty$$anonfun$3 {*;}
+-keep class anran.hdcode2.library.DataLinkProperty$$anonfun$4 {*;}
+-keep class anran.hdcode2.library.DataLinkProperty$$anonfun$5$$anonfun$apply$1 {*;}
+-keep class anran.hdcode2.library.DataLinkProperty$$anonfun$5 {*;}
+-keep class anran.hdcode2.library.DataLinkProperty {*;}
+-keep class anran.hdcode2.library.FileTransmitProperty$$anonfun$1$$anonfun$apply$1$$anonfun$apply$mcVI$sp$1 {*;}
+-keep class anran.hdcode2.library.FileTransmitProperty$$anonfun$1$$anonfun$apply$1 {*;}
+-keep class anran.hdcode2.library.FileTransmitProperty$$anonfun$1 {*;}
+-keep class anran.hdcode2.library.FileTransmitProperty$$anonfun$GetTotalBlockCount$1 {*;}
+-keep class anran.hdcode2.library.FileTransmitProperty$ {*;}
+-keep class anran.hdcode2.library.FileTransmitProperty {*;}
+-keep class anran.hdcode2.library.FileType {*;}
+-keep class anran.hdcode2.library.FileTypes$ {*;}
+-keep class anran.hdcode2.library.FileTypes$JPEGImage$ {*;}
+-keep class anran.hdcode2.library.FileTypes$PlainText$ {*;}
+-keep class anran.hdcode2.library.FileTypes$PNGImage$ {*;}
+-keep class anran.hdcode2.library.FileTypes$ZIP$ {*;}
+-keep class anran.hdcode2.library.FileTypes {*;}
+-keep class anran.hdcode2.library.MemoryBuffer$$anonfun$1 {*;}
+-keep class anran.hdcode2.library.MemoryBuffer$ {*;}
+-keep class anran.hdcode2.library.MemoryBuffer$tripleVar {*;}
+-keep class anran.hdcode2.library.MemoryBuffer {*;}
+-keep class anran.hdcode2.library.PhysicalProperty$$anonfun$1 {*;}
+-keep class anran.hdcode2.library.PhysicalProperty$$anonfun$2$$anonfun$apply$mcII$sp$1 {*;}
+-keep class anran.hdcode2.library.PhysicalProperty$$anonfun$2 {*;}
+-keep class anran.hdcode2.library.PhysicalProperty$$anonfun$4$$anonfun$apply$3 {*;}
+-keep class anran.hdcode2.library.PhysicalProperty$$anonfun$4 {*;}
+-keep class anran.hdcode2.library.PhysicalProperty$$anonfun$5$$anonfun$6 {*;}
+-keep class anran.hdcode2.library.PhysicalProperty$$anonfun$5$$anonfun$apply$1$$anonfun$apply$mcVI$sp$1 {*;}
+-keep class anran.hdcode2.library.PhysicalProperty$$anonfun$5$$anonfun$apply$1 {*;}
+-keep class anran.hdcode2.library.PhysicalProperty$$anonfun$5 {*;}
+-keep class anran.hdcode2.library.PhysicalProperty$$anonfun$7$$anonfun$3 {*;}
+-keep class anran.hdcode2.library.PhysicalProperty$$anonfun$7$$anonfun$apply$2$$anonfun$apply$mcVI$sp$2 {*;}
+-keep class anran.hdcode2.library.PhysicalProperty$$anonfun$7$$anonfun$apply$2 {*;}
+-keep class anran.hdcode2.library.PhysicalProperty$$anonfun$7 {*;}
+-keep class anran.hdcode2.library.PhysicalProperty {*;}
+-keep class anran.hdcode2.library.PixelReader$$anonfun$1 {*;}
+-keep class anran.hdcode2.library.PixelReader$$anonfun$GetPixelGaussYUVBuffered$1 {*;}
+-keep class anran.hdcode2.library.PixelReader$$anonfun$GetPixelGaussYUVBuffered$2 {*;}
+-keep class anran.hdcode2.library.PixelReader$$anonfun$getPixelYUV$1 {*;}
+-keep class anran.hdcode2.library.PixelReader$$anonfun$GetPixelYUVTo$1 {*;}
+-keep class anran.hdcode2.library.PixelReader {*;}
+-keep class anran.hdcode2.library.PresentProperty {*;}
+-keep class anran.hdcode2.library.Utils$$anonfun$debuginfo$1 {*;}
+-keep class anran.hdcode2.library.Utils$$anonfun$debugwarn$1 {*;}
+-keep class anran.hdcode2.library.Utils$ {*;}
+-keep class anran.hdcode2.library.Utils {*;}
+-keep class anran.hdcode2.library.YUVColor {*;}
+-keep class anran.hdcode2.MainActivity$$anon$1 {*;}
+-keep class anran.hdcode2.MainActivity$$anon$2 {*;}
+-keep class anran.hdcode2.MainActivity {*;}
+-keep class anran.hdcode2.NativeBridge {*;}
+-keep class anran.hdcode2.physical.BlackClassifier$ {*;}
+-keep class anran.hdcode2.physical.BlackClassifier {*;}
+-keep class anran.hdcode2.physical.Block$$anonfun$Read$1 {*;}
+-keep class anran.hdcode2.physical.Block$$anonfun$Seek$1 {*;}
+-keep class anran.hdcode2.physical.Block$$anonfun$Write$1 {*;}
+-keep class anran.hdcode2.physical.Block {*;}
+-keep class anran.hdcode2.physical.BlockPosition$ {*;}
+-keep class anran.hdcode2.physical.BlockPosition {*;}
+-keep class anran.hdcode2.physical.BlockScanner$$anonfun$ReadFrameId$1 {*;}
+-keep class anran.hdcode2.physical.BlockScanner$$anonfun$ReadFrameId$2 {*;}
+-keep class anran.hdcode2.physical.BlockScanner {*;}
+-keep class anran.hdcode2.physical.BlockState {*;}
+-keep class anran.hdcode2.physical.Drawer {*;}
+-keep class anran.hdcode2.physical.Frame$$anonfun$1 {*;}
+-keep class anran.hdcode2.physical.Frame {*;}
+-keep class anran.hdcode2.physical.FramePosition$$anonfun$1 {*;}
+-keep class anran.hdcode2.physical.FramePosition$$anonfun$2 {*;}
+-keep class anran.hdcode2.physical.FramePosition$$anonfun$GetBlockPosition$1 {*;}
+-keep class anran.hdcode2.physical.FramePosition$$anonfun$Refresh$1$$anonfun$apply$1 {*;}
+-keep class anran.hdcode2.physical.FramePosition$$anonfun$Refresh$1 {*;}
+-keep class anran.hdcode2.physical.FramePosition$$anonfun$SetBlockPosition$1 {*;}
+-keep class anran.hdcode2.physical.FramePosition {*;}
+-keep class anran.hdcode2.physical.HexagonDrawer$$anonfun$GetPainter$1$$anonfun$apply$1$$anonfun$apply$mcVI$sp$1 {*;}
+-keep class anran.hdcode2.physical.HexagonDrawer$$anonfun$GetPainter$1$$anonfun$apply$1 {*;}
+-keep class anran.hdcode2.physical.HexagonDrawer$$anonfun$GetPainter$1 {*;}
+-keep class anran.hdcode2.physical.HexagonDrawer {*;}
+-keep class anran.hdcode2.physical.HexagonLocater {*;}
+-keep class anran.hdcode2.physical.LB$ {*;}
+-keep class anran.hdcode2.physical.LB {*;}
+-keep class anran.hdcode2.physical.Locater {*;}
+-keep class anran.hdcode2.physical.LT$ {*;}
+-keep class anran.hdcode2.physical.LT {*;}
+-keep class anran.hdcode2.physical.PatternLocater$$anonfun$1 {*;}
+-keep class anran.hdcode2.physical.PatternLocater$$anonfun$adjust$1 {*;}
+-keep class anran.hdcode2.physical.PatternLocater$$anonfun$GetCenterBlockLocater$1 {*;}
+-keep class anran.hdcode2.physical.PatternLocater$$anonfun$GetCenterBlockLocater$2 {*;}
+-keep class anran.hdcode2.physical.PatternLocater$$anonfun$GetCenterBlockLocater$3 {*;}
+-keep class anran.hdcode2.physical.PatternLocater$$anonfun$GetCenterBlockLocater$4 {*;}
+-keep class anran.hdcode2.physical.PatternLocater$$anonfun$GetCenterBlockLocater$5 {*;}
+-keep class anran.hdcode2.physical.PatternLocater$$anonfun$GetCenterPointLocater$1 {*;}
+-keep class anran.hdcode2.physical.PatternLocater$$anonfun$GetDistributedLocater$1 {*;}
+-keep class anran.hdcode2.physical.PatternLocater$$anonfun$GetDistributedLocater$2 {*;}
+-keep class anran.hdcode2.physical.PatternLocater$$anonfun$GetDistributedLocater$3 {*;}
+-keep class anran.hdcode2.physical.PatternLocater$$anonfun$getEstimatedSidelength$1 {*;}
+-keep class anran.hdcode2.physical.PatternLocater$$anonfun$getEstimatedSidelength$2 {*;}
+-keep class anran.hdcode2.physical.PatternLocater$queue$$anonfun$2 {*;}
+-keep class anran.hdcode2.physical.PatternLocater$queue$ {*;}
+-keep class anran.hdcode2.physical.PatternLocater$queue$MutableTuple4 {*;}
+-keep class anran.hdcode2.physical.PatternLocater {*;}
+-keep class anran.hdcode2.physical.Position {*;}
+-keep class anran.hdcode2.physical.RB$ {*;}
+-keep class anran.hdcode2.physical.RB {*;}
+-keep class anran.hdcode2.physical.RT$ {*;}
+-keep class anran.hdcode2.physical.RT {*;}
+-keep class anran.hdcode2.physical.SquareDrawer$$anonfun$GetPainter$1 {*;}
+-keep class anran.hdcode2.physical.SquareDrawer {*;}
+-keep class anran.hdcode2.physical.SquareLocater {*;}
+-keep class anran.hdcode2.PointsView$$anonfun$onDraw$1 {*;}
+-keep class anran.hdcode2.PointsView {*;}
+-keep class anran.hdcode2.R$attr {*;}
+-keep class anran.hdcode2.R$color {*;}
+-keep class anran.hdcode2.R$dimen {*;}
+-keep class anran.hdcode2.R$drawable {*;}
+-keep class anran.hdcode2.R$id {*;}
+-keep class anran.hdcode2.R$layout {*;}
+-keep class anran.hdcode2.R$menu {*;}
+-keep class anran.hdcode2.R$string {*;}
+-keep class anran.hdcode2.R$style {*;}
+-keep class anran.hdcode2.R$styleable {*;}
+-keep class anran.hdcode2.R {*;}
+-keep class anran.hdcode2.ReceiverActivity$1 {*;}
+-keep class anran.hdcode2.ReceiverActivity$2 {*;}
+-keep class anran.hdcode2.ReceiverActivity$3 {*;}
+-keep class anran.hdcode2.ReceiverActivity$4 {*;}
+-keep class anran.hdcode2.ReceiverActivity {*;}
+-keep class anran.hdcode2.Test {*;}
+-keep class anran.hdcode2.util.SystemUiHider$1 {*;}
+-keep class anran.hdcode2.util.SystemUiHider$OnVisibilityChangeListener {*;}
+-keep class anran.hdcode2.util.SystemUiHider {*;}
+-keep class anran.hdcode2.util.SystemUiHiderBase {*;}
+-keep class anran.hdcode2.util.SystemUiHiderHoneycomb$1 {*;}
+-keep class anran.hdcode2.util.SystemUiHiderHoneycomb {*;}
+-keep class anran.hdcode2.zip.XZip {*;}
+-keep class jp.sourceforge.reedsolomon.Galois {*;}
+-keep class jp.sourceforge.reedsolomon.GaloisDM {*;}
+-keep class jp.sourceforge.reedsolomon.GaloisQR {*;}
+-keep class jp.sourceforge.reedsolomon.RsDecode {*;}
+-keep class jp.sourceforge.reedsolomon.RsEncode {*;}

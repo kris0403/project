@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HDCode2</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_receiver">HDCode Receiver</string>
+    <string name="dummy_button">Start/Stop Capturing</string>
+    <string name="dummy_content"></string>
+
+</resources>
